@@ -1,8 +1,14 @@
-import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../component/navbar/navbar";
-import styles from "../styles/Home.module.css";
+import Footer from "../component/footer/footer";
+import CaraPesan from "../component/carapesan/carapesan";
+import DaftarMobil from "../component/daftarmobil/daftarmobil";
 
 export default function Home() {
-  return <Navbar />;
+  return (
+    <div>
+      <Navbar />
+      <DaftarMobil />
+      <Footer />
+    </div>
+  );
 }

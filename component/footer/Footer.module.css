@@ -1,0 +1,23 @@
+.a {
+  color: white;
+  text-decoration: none;
+}
+.a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.margin {
+  margin-top: 60px;
+}
+.margin h3 {
+  font-weight: bold;
+  color: white;
+}
+.margin i {
+  margin-right: 5px;
+  color: white;
+}
+.margin li {
+  color: white;
+}
