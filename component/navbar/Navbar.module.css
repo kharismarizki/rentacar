@@ -1,0 +1,8 @@
+.tulisan {
+  color: #ffffff;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.tulisan:hover {
+  color: #ffffff;
+}
