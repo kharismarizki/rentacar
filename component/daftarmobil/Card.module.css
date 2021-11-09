@@ -1,0 +1,21 @@
+.position {
+  display: flex;
+}
+
+.position div {
+  margin-left: 13px;
+  font-size: 14px;
+}
+
+.transmisi {
+  margin-top: 2px;
+  background-color: #b4aeae;
+  border-radius: 3px;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.position2 {
+  align-content: center;
+  display: flex;
+}
