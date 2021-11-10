@@ -1,25 +1,18 @@
+import Card from "../../component/card/cardpesan";
 const pesan = () => {
   return (
     <>
       <div>
         <div className="container" style={{ maxWidth: 960 }}>
           <main>
-            <div className="py-5 text-center">
-              <img
-                className="d-block mx-auto mb-4"
-                src="/docs/5.1/assets/brand/bootstrap-logo.svg"
-                alt
-                width={72}
-                height={57}
-              />
-              <h2>Iki Dinggo Card</h2>
-              <p className="lead">isine card atau ono deskripsi singkat</p>
+            <div className="text-center">
+                <Card />
             </div>
             <div className="row g-5">
               <div className="col-md-5 col-lg-4 order-md-last">
                 <h4 className="d-flex justify-content-between align-items-center mb-3">
                   <span className="text-primary">Keranjang Anda</span>
-                  <span className="badge bg-primary rounded-pill">3</span>
+                  {/* <span className="badge bg-primary rounded-pill">3</span> */}
                 </h4>
                 <ul className="list-group mb-3">
                   <li className="list-group-item d-flex justify-content-between lh-sm">
@@ -119,7 +112,7 @@ const pesan = () => {
                         Mohon Untuk Memasukkan ALamat Anda.
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-12">
                       <label htmlFor="startDate" className="form-label">
                         Mulai Tanggal
                       </label>
@@ -129,14 +122,20 @@ const pesan = () => {
                         Pilih Mulai Tanggal Rental
                       </div>
                     </div>
-                    <div className="col-md-5">
-                      <label htmlFor="endDate" className="form-label">
-                        Sampai Tanggal
+                    <div className="col-sm-5">
+                      <label htmlFor="lastName" className="form-label">
+                        Lama Sewa (hari)
                       </label>
-                      <br />
-                      <input type="date" />
+                      <input
+                        type="number"
+                        className="form-control"
+                        id="number"
+                        placeholder="Masukkan Lama Sewa"
+                        defaultValue
+                        required
+                      />
                       <div className="invalid-feedback">
-                        Pilih Akhir Tanggal Rental
+                        Masukkan Lama Sewa Anda.
                       </div>
                     </div>
                     <div className="col-md-4">
