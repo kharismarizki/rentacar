@@ -1,42 +1,37 @@
-import styles from "./Daftarmobil.module.css";
 import Card from "./card";
 const daftarMobil = () => {
   return (
     <>
-      <div
-        id="carouselExampleControls"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h1>DAFTAR MOBIL</h1>
+          </div>
+        </div>
+        <hr />
+        <div className="row">
+          <div className="col">
             <Card />
           </div>
-          <div className="carousel-item">
+          <div className="col">
             <Card />
           </div>
-          <div className="carousel-item">
+          <div className="col">
             <Card />
           </div>
         </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="visually-hidden">Next</span>
-        </button>
+        <br/>
+        <div className="row">
+          <div className="col">
+            <Card />
+          </div>
+          <div className="col">
+            <Card />
+          </div>
+          <div className="col">
+            <Card />
+          </div>
+        </div>
       </div>
     </>
   );
