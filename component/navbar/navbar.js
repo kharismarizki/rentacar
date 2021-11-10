@@ -4,7 +4,7 @@ const navbar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-light navbar-expand-lg fixed-top"
+        className="navbar navbar-light navbar-expand-lg"
         style={{ background: "#276678" }}
         id="mainNav"
       >

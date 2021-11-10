@@ -1,29 +1,42 @@
 import styles from "./Daftarmobil.module.css";
+import Card from "./card";
 const daftarMobil = () => {
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <div className="col-6">
-            <div>
-              <div>Cara Pemesanan</div>
-              <br />
-              <div>Mulai rental dengan 3 Langkah mudah</div>
-            </div>
+      <div
+        id="carouselExampleControls"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <Card />
           </div>
-          <div className="col-6">
-            <div className={styles.align}>
-              <div>Cara Pemesanan</div>
-              <br />
-              <div>Mulai rental dengan 3 Langkah mudah</div>
-            </div>
+          <div className="carousel-item">
+            <Card />
+          </div>
+          <div className="carousel-item">
+            <Card />
           </div>
         </div>
-        <div className="row">
-          <div className="col-4">tes</div>
-          <div className="col-4">tes</div>
-          <div className="col-4">tes</div>
-        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </>
   );
