@@ -1,0 +1,11 @@
+.align {
+  text-align: right;
+}
+.daftar {
+  height: max-content;
+  width: 900px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  background-color: gray;
+  display: flex;
+}
