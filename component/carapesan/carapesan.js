@@ -3,6 +3,12 @@ const caraPesan = () => {
     <>
       <div className="container">
         <div className="row">
+          <div className="col">
+            <h1>CARA VAKSIN</h1>
+          </div>
+          <hr />
+        </div>
+        <div className="row">
           <div
             className="col-md-4 col-lg-3 offset-lg-1"
             style={{ background: "#1687a7", borderRadius: 4 }}
