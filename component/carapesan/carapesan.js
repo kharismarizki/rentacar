@@ -4,7 +4,7 @@ const caraPesan = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>CARA VAKSIN</h1>
+            <h1>CARA PESAN</h1>
           </div>
           <hr />
         </div>
