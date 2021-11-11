@@ -36,11 +36,6 @@ const navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#testimoni">
-                  <a className={Styles.tulisan}>Testimoni</a>
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link href="#about">
                   <a className={Styles.tulisan}>Tentang Kami</a>
                 </Link>
