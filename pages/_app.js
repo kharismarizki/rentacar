@@ -4,9 +4,9 @@ import { useEffect } from "react";
 // import "bootstrap/dist/js/bootstrap.min.js";
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
-  }, []);
+//   useEffect(() => {
+//     import("bootstrap/dist/js/bootstrap");
+//   }, []);
   return <Component {...pageProps} />;
 }
 
